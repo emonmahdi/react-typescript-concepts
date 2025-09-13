@@ -1,3 +1,5 @@
+import Events from "./components/Events";
+import Forms from "./components/Forms";
 import Greetings from "./components/Greetings";
 import Hooks from "./components/Hooks";
 
@@ -10,6 +12,8 @@ function App() {
       <h2>Welcome to react typescript</h2>
       <Greetings userName={userName} age={age} />
       <Hooks />
+      <Events />
+      <Forms />
     </>
   );
 }
