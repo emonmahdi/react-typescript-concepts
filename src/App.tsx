@@ -1,3 +1,4 @@
+import Drilling from "./components/Drilling";
 import Events from "./components/Events";
 import FocusInput from "./components/FocusInput";
 import Forms from "./components/Forms";
@@ -37,6 +38,26 @@ function App() {
         <Events />
         <Forms />
         <FocusInput />
+        <Drilling>
+          <h3>Blog title One</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam
+            earum necessitatibus unde, adipisci consequuntur vel maxime ex
+            facere delectus nesciunt placeat voluptas officiis iusto sapiente
+            consectetur itaque dolore exercitationem soluta repellat voluptatum
+            totam, dolorum aliquid! Soluta expedita obcaecati minus.
+          </p>
+        </Drilling>
+        <Drilling>
+          <h3>Blog title Two</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nam
+            earum necessitatibus unde, adipisci consequuntur vel maxime ex
+            facere delectus nesciunt placeat voluptas officiis iusto sapiente
+            consectetur itaque dolore exercitationem soluta repellat voluptatum
+            totam, dolorum aliquid! Soluta expedita obcaecati minus.
+          </p>
+        </Drilling>
       </div>
     </>
   );
