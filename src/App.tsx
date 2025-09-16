@@ -7,6 +7,7 @@ import Forms from "./components/Forms";
 import Greetings from "./components/Greetings";
 import Hooks from "./components/Hooks";
 import PostList from "./components/PostList";
+import ProductList from "./components/ProductList";
 import { useTheme } from "./components/ThemeContext";
 
 const userName = "Md Emon Mahdi";
@@ -64,6 +65,7 @@ function App() {
         <CounterComponent />
         <PostList />
         <FetchData />
+        <ProductList />
       </div>
     </>
   );
