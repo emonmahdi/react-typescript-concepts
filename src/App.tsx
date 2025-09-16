@@ -1,6 +1,7 @@
 import CounterComponent from "./components/CounterComponent";
 import Drilling from "./components/Drilling";
 import Events from "./components/Events";
+import FetchData from "./components/FetchData";
 import FocusInput from "./components/FocusInput";
 import Forms from "./components/Forms";
 import Greetings from "./components/Greetings";
@@ -62,6 +63,7 @@ function App() {
         </Drilling>
         <CounterComponent />
         <PostList />
+        <FetchData />
       </div>
     </>
   );
